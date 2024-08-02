@@ -1,8 +1,14 @@
 export function Header() {
   return (
-    <header>
-      <nav>
-        <a href="#">Home</a> | <a href="#">Link</a>
+    <header className="">
+      <nav className="bg-gray-400 p-1">
+        <a className="hover:bg-gray-300 rounded-sm" href="#">
+          Home
+        </a>{" "}
+        |{" "}
+        <a className="hover:bg-gray-300 rounded-sm" href="#">
+          Link
+        </a>
       </nav>
     </header>
   );
